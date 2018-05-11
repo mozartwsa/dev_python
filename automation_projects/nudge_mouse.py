@@ -5,11 +5,11 @@ try:
     while True:
         x, y = pyautogui.position()
 
-        time.sleep(5)
+        time.sleep(30)
 
-        pyautogui.moveRel(x+0.1, y+0.1, duration=0.2)
+        pyautogui.moveRel(10, 10, duration=0.2) #ten pixels right/down
         time.sleep(1)
-        pyautogui.moveRel(x-0.1, y-0.1, duration=0.2)
+        pyautogui.moveRel(-10, -10, duration=0.2) #ten pixels left/up
 
 except KeyboardInterrupt:
     print('\nDone.')
