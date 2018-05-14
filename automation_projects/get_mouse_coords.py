@@ -2,6 +2,7 @@
 # mouseNow.py - Displays the mouse cursor's current position.
 
 #install pyauto gui: 'pip install pyautogui'
+#install pyperclip: 'pip install pyperclip'
 import pyautogui
 print('Press Ctrl-C to quit.')
 try:
