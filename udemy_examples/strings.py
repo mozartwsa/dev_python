@@ -1,5 +1,4 @@
 ##python strings exmaples and tips
-
 singleQuotes = 'Hello World'
 
 doubleQuotes = "Hello World"
@@ -40,6 +39,21 @@ for i in range(0, len(emailsList)):
     uo = login[1].split('.')
     print('Login: ' + login[0] + ' UO: ' + uo[0])
 
+######rjust, ljust and center
+name = 'mozart'
+name = name.rjust(20)
+print(name)
+name = 'william'
+name = name.ljust(20)
+print(name)
+print('mozart william'.center(20))
 
+#####strip, rstrip and lstrip
+print('mozart william'.center(20).strip())
+print('mozart william'.center(20).rstrip())
+print('mozart william'.center(20).lstrip())
 
+#replace
+spam = 'Hello there!'
+print(spam.replace('e', 'XYZ'))
 
